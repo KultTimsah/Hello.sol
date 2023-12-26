@@ -7,4 +7,8 @@ contract HelloWorld {
     function sayHey() public {
         emit HeyEvent("Hey");
     }
+
+    function sayHi() public {
+            emit HeyEvent("Hi");
+    }
 }
