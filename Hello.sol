@@ -11,4 +11,8 @@ contract HelloWorld {
     function sayHi() public {
             emit HeyEvent("Hi");
     }
+
+    function saySup() public {
+            emit HeyEvent("Sup");
+    }
 }
