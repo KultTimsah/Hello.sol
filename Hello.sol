@@ -19,4 +19,8 @@ contract HelloWorld {
    function sayGOOD() public {
             emit HeyEvent("That's good");
     }
+
+   function sayOOOOHHHHH() public {
+            emit HeyEvent("That's OOOOHHHHH");
+    }
 }
